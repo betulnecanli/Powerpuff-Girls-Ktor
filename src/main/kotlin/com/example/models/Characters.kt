@@ -7,6 +7,8 @@ import kotlinx.serialization.Serializable
 data class Characters(
     val id : Int,
     val name : String,
-    val image : String
+    val image : String,
+    val species : String,
+    val about : String
 
 )
