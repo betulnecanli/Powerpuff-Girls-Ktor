@@ -22,21 +22,21 @@ class PPGRepositoryImpl(
         Characters(
             id = 1,
             name = "Bubbles",
-            image = "",
+            image = "/image/bubbles.jpg",
             species = "",
             about = ""
         ),
         Characters(
             id = 2,
             name = "Blossom",
-            image = "",
+            image = "/image/blossom.jpg",
             species = "",
             about = ""
         ),
         Characters(
             id = 3,
             name = "Buttercup",
-            image = "",
+            image = "/image/buttercup.jpg",
             species = "",
             about = ""
         )
