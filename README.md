@@ -8,7 +8,7 @@
 </p>
 
 </br>
-# <h2 align="center">How to run?</h2>
+<h2 align="center">How to run?</h2>
 <p align="center"> 
 After the download the project, you can open it with Intellij Idea. 
 You can run the project on Application.kt file.
