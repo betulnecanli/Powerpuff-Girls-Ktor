@@ -3,6 +3,10 @@
 <p align="center">  
 💗 This project shows usage of Kotlin library ktor: Simple REST Server exposing JSON API for Powerpuff Girls entities. 💗
 </p>
+<p align="center">
+<img src="https://github.com/betulnecanli/PowerpuffGirlsServer/blob/master/banner/ppgbnnr.png?raw=true"/>
+</p>
+
 </br>
 # <h2 align="center">How to run?</h2>
 <p align="center"> 
