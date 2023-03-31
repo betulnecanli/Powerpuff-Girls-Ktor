@@ -18,9 +18,89 @@ You can use Postman for requests and responses.
 
 # <h2 align="center">Endpoints📜</h2>
 ## Show All Characters 
+- Method : GET
+- Endpoint : /powerpuffgirls/characters
+- Request : localhost:8080/powerpuffgirls/characters
+- Response : 
+```json 
+...
+{
+    {
+    "success": true,
+    "message": "OK",
+    "prevPage": null,
+    "nextPage": 2,
+    "ppGirls": [
+        {
+            "id": 1,
+            "name": "Bubbles",
+            "image": "/image/bubbles.jpg",
+            "species": "Chemical X offspring of sugar, spice, and everything nice",
+            "about": "Bubbles is one of the three main protagonists of the animated television series The Powerpuff Girls. She fights crime with her sisters Blossom and Buttercup. She is the Joy and the Laughter; she is the emotional glue of the superhero trio. She is the \"sugar\" ingredient of the three."
+        },
+        {
+            "id": 2,
+            "name": "Blossom",
+            "image": "/image/blossom.jpg",
+            "species": "Chemical X offspring of sugar, spice, and everything nice",
+            "about": "Blossom is one of the three main protagonists of the animated television series The Powerpuff Girls, along with her sisters Bubbles and Buttercup. She's the Commander and Leader; she's the bright but egocentric leader of the superhero trio."
+        },
+        {
+            "id": 3,
+            "name": "Buttercup",
+            "image": "/image/buttercup.jpg",
+            "species": "Chemical X offspring of sugar, spice, and everything nice",
+            "about": "Buttercup is one of the three main protagonists of the animated television series The Powerpuff Girls, along with her sisters Blossom and Bubbles. She's the Toughest Fighter; she's the bravest, most headstrong of the superhero trio."
+        }
+    ]
+}
+...
+```
 ## Search Characters 
-
-
+- Method : GET
+- Endpoint : /powerpuffgirls/characters/search?name=
+- Request : localhost:8080/powerpuffgirls/characters/search?name=bu
+- Response : 
+```json 
+...
+{
+    "success": true,
+    "message": "OK",
+    "prevPage": null,
+    "nextPage": null,
+    "ppGirls": [
+        {
+            "id": 1,
+            "name": "Bubbles",
+            "image": "/image/bubbles.jpg",
+            "species": "Chemical X offspring of sugar, spice, and everything nice",
+            "about": "Bubbles is one of the three main protagonists of the animated television series The Powerpuff Girls. She fights crime with her sisters Blossom and Buttercup. She is the Joy and the Laughter; she is the emotional glue of the superhero trio. She is the \"sugar\" ingredient of the three."
+        },
+        {
+            "id": 3,
+            "name": "Buttercup",
+            "image": "/image/buttercup.jpg",
+            "species": "Chemical X offspring of sugar, spice, and everything nice",
+            "about": "Buttercup is one of the three main protagonists of the animated television series The Powerpuff Girls, along with her sisters Blossom and Bubbles. She's the Toughest Fighter; she's the bravest, most headstrong of the superhero trio."
+        },
+        {
+            "id": 12,
+            "name": "Bunny",
+            "image": "/image/bunny.jpg",
+            "species": "Chemical X offspring of artificial sweetener, dirt, twigs, and everything nice",
+            "about": "Bunny is one of the created, short-lived sisters of the Powerpuff Girls. She is shown only once in \"Twisted Sister\". The Powerpuff Girls each have a unique ingredient for her; sugar, spice, and everything nice. Just as each of the other Powerpuff Girls has a signature color, hers is lilac."
+        },
+        {
+            "id": 15,
+            "name": "Butch",
+            "image": "/image/butch.jpg",
+            "species": "Chemical X offspring of snips, snails, and a puppy dog’s tail",
+            "about": "Butch is the third member of The Rowdyruff Boys. He is Buttercup's male equivalent and evil counterpart and was originally created by Mojo Jojo.After being killed by the Powerpuff Girls' kiss of death, he was revived by HIM and was given a cootie shot to prevent the same mistake to be repeated. While Buttercup's color is bottle green, Butch is more like a forest green. Butch's element is \"Snails\"."
+        }
+    ]
+}
+...
+```
 <h2 align="center">Tech Stack 📚</h2>
 
 - [Kotlin](https://kotlinlang.org/) based,
